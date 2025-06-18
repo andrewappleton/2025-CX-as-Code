@@ -1,0 +1,3 @@
+{{- range . -}}
+    {{printf "archy export --flowName \"%s\" --flowType %s --exportType yaml --outputDir output --force --clientId $env:TF_VAR_SOURCE_CLIENTID --clientSecret $env:TF_VAR_SOURCE_CLIENTSECRET --location $env:TF_VAR_ARCHY_SOURCE_REGION" .name (lower .type)}}
+{{end}}

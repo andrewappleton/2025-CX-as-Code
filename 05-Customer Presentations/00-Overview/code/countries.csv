@@ -1,0 +1,73 @@
+﻿id,country,code,acw_timeout_ms,auto_answer_only,enable_transcription
+1,Argentina,AR,30000,true,true
+2,Australia,AU,30000,true,true
+3,Austria,AT,80000,true,true
+4,Barbados,BB,30000,false,true
+5,Belarus,BY,30000,false,false
+6,Belgium,BE,80000,false,true
+8,Brazil,BR,80000,true,false
+9,Bulgaria,BG,40000,false,true
+10,Canada,CA,80000,false,true
+11,Chile,CL,30000,true,false
+12,China,CN,30000,true,true
+13,Colombia,CO,30000,false,false
+14,Costa Rica,CR,80000,true,true
+15,Croatia,HR,40000,true,true
+16,Cuba,CU,30000,false,true
+17,Curaçao,CW,80000,true,false
+18,Cyprus,CY,30000,false,true
+19,Czechia,CZ,30000,false,true
+20,Denmark,DK,40000,false,false
+21,Egypt,EG,30000,false,true
+22,Estonia,EE,80000,false,true
+23,Finland,FI,40000,true,true
+24,France,FR,30000,true,true
+25,Germany,DE,30000,true,true
+26,Greece,GR,30000,false,false
+27,Hong Kong,HK,30000,false,false
+28,Hungary,HU,80000,false,true
+29,Iceland,IS,30000,true,true
+30,India,IN,40000,true,true
+31,Ireland,IE,30000,true,false
+32,Israel,IL,30000,true,true
+33,Italy,IT,30000,true,false
+34,Jamaica,JM,40000,true,true
+35,Japan,JP,80000,true,true
+36,Jersey,JE,30000,true,true
+37,Kenya,KE,30000,false,false
+38,Latvia,LV,30000,false,true
+39,Liechtenstein,LI,40000,false,true
+40,Lithuania,LT,30000,true,false
+41,Luxembourg,LU,30000,true,true
+42,Malaysia,MY,30000,true,true
+43,Maldives,MV,80000,true,true
+44,Malta,MT,30000,true,true
+45,Mexico,MX,30000,true,true
+46,Morocco,MA,30000,false,false
+47,Mozambique,MZ,40000,true,false
+48,Netherlands,NL,30000,true,true
+49,New Zealand,NZ,80000,false,false
+50,Norway,NO,30000,true,true
+51,Pakistan,PK,30000,true,true
+52,Philippines,PH,80000,false,true
+53,Poland,PL,30000,true,true
+54,Portugal,PT,30000,true,false
+55,Qatar,QA,30000,true,true
+56,Romania,RO,30000,false,true
+57,Russian Federation,RU,30000,true,false
+58,Saudi Arabia,SA,30000,true,true
+59,Singapore,SG,80000,true,true
+60,Slovenia,SI,30000,true,true
+61,South Africa,ZA,30000,true,false
+62,Spain,ES,80000,false,true
+63,Sri Lanka,LK,40000,true,true
+64,Sweden,SE,30000,true,true
+65,Switzerland,CH,80000,false,false
+66,Taiwan,TW,30000,true,true
+67,Thailand,TH,40000,true,true
+68,Tunisia,TN,80000,false,false
+69,Turkey,TR,30000,false,true
+70,Ukraine,UA,40000,true,true
+71,United Arab Emirates,AE,80000,true,false
+72,United Kingdom of Great Britain and Northern Ireland,GB,30000,false,true
+73,United States of America,US,40000,true,true

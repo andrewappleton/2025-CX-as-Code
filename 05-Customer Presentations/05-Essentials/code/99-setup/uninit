@@ -1,0 +1,4 @@
+#!/usr/local/bin/bash
+echo Running Terraform destroy...
+terraform destroy
+rm -rf .terraform* sdk_debug.* terraform.tfstate* gcexport export exports ie-genesysps-import output 99-export_archy_flows.sh

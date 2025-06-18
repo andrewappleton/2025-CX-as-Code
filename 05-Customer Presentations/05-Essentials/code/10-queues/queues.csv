@@ -1,0 +1,5 @@
+idx,acw_wrapup_prompt,acw_timeout_ms,auto_answer_only
+0,MANDATORY_TIMEOUT,60000,true
+1,MANDATORY_TIMEOUT,30000,true
+2,MANDATORY_TIMEOUT,30000,false
+3,MANDATORY_TIMEOUT,30000,true

@@ -1,0 +1,38 @@
+inboundEmail:
+  name: GSYS_EmailTest
+  description: Use with demo of CXaC/Archy
+  division: Home
+  startUpRef: "/inboundEmail/states/state[Initial State_10]"
+  defaultLanguage: en-gb
+  supportedLanguages:
+    en-gb:
+      defaultLanguageSkill:
+        noValue: true
+  settingsInboundEmailHandling:
+    emailHandling:
+      disconnect:
+        none: true
+  settingsErrorHandling:
+    errorHandling:
+      disconnect:
+        none: true
+  states:
+    - state:
+        name: Initial State
+        refId: Initial State_10
+        actions:
+          - sendAutoReply:
+              name: Send Auto Reply
+              from:
+                noValue: true
+              replyTo:
+                noValue: true
+              cc:
+                noValue: true
+              bcc:
+                noValue: true
+              messageBody:
+                lit: "\"Thank you for your message!  One of our expert agents will review and reply shortly.\""
+              replyMode: replyToSender
+          - disconnect:
+              name: Disconnect

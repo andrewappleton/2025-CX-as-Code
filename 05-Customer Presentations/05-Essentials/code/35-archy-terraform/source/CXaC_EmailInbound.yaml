@@ -1,0 +1,25 @@
+inboundEmail:
+  name: {{flow_name}}
+  defaultLanguage: en-us
+  startUpRef: ./states/state[mainState]
+  states:
+    - state:
+        name: Inbound Email State
+        refId: mainState
+        actions:
+          - decision:
+              name: Email Decision
+              condition:
+                exp: Contains(Email.Message.subject, "Help", true)
+              outputs:
+                yes:
+                  actions:
+                    - transferToAcd:
+                        name: Transfer to CXaC Queue
+                        targetQueue:
+                          lit:
+                            name: {{queue_name}}
+                no:
+                  actions:
+                    - disconnect:
+                        name: No help, Disconnect

@@ -1,0 +1,10 @@
+* Terraform Destroy in reverse order of projects
+* Remove if exists: 
+    gcexport .terraform .terraform.lock.hcl terraform.tfstate* 
+* Comment examples that have multiple stage runs
+    10-export
+    00-skills-and-codes
+* Remove genesyscloud_*.tf files from 15-import project
+* Delete datatable
+* Rename example Architect workflow
+* Delete workflows from both environments

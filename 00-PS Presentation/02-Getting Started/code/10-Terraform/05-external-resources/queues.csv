@@ -1,0 +1,6 @@
+idx,queue_name,acw_wrapup_prompt,acw_timeout_ms,auto_answer_only,description
+0,Q_Sales,MANDATORY_TIMEOUT,50000,true,"Queue for sales calls"
+1,Q_Info,MANDATORY_TIMEOUT,40000,true,"Queue for general information"
+2,Q_Support,MANDATORY_TIMEOUT,30000,false,"Queue for product support"
+3,Q_NewCustomers,MANDATORY_TIMEOUT,20000,true,"Queue for new customers"
+4,Q_Cancelations,MANDATORY_TIMEOUT,10000,true,"Queue for cancelation of services"
